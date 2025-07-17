@@ -283,6 +283,7 @@ const contactInfo = {
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+94 775742738",
   email_address: "smithushan03@gmail.com",
+  displayCall: true, // Set false to hide the call button, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
