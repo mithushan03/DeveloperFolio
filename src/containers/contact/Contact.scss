@@ -20,10 +20,28 @@
 .contact-detail,
 .contact-detail-email {
   margin-top: 20px;
-  font-size: 40px;
+  font-size: 24px;
   font-weight: 400;
   color: $subTitle;
   text-decoration: none;
+}
+
+/* Button styles */
+.contact-button {
+  background-color: #4a6fa5;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #3a5a8f;
 }
 
 .contact-detail:hover,
@@ -52,6 +70,24 @@
   margin-top: -4rem;
 }
 
+/* Button styles */
+.contact-button {
+  background-color: #4a6fa5;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #3a5a8f;
+}
+
 /* Media Query */
 @media (max-width: 1380px), (max-width: 768px) {
   .contact-title {
@@ -78,10 +114,21 @@
 
   .contact-detail,
   .contact-detail-email {
+    font-size: 24px;
+  }
+
+  .contact-button {
     font-size: 20px;
+    padding: 10px 20px;
   }
 
   .contact-image-div {
     display: none;
+  }
+
+  .contact-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
   }
 }

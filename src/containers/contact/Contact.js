@@ -32,12 +32,11 @@ export default function Contact() {
               {contactInfo.displayCall && (
                 <>
                   <a
-                    className="contact-detail"
+                    className="contact-detail-email"
                     href={"tel:" + contactInfo.number}
                   >
                     {contactInfo.number}
                   </a>
-                  <br />
                   <br />
                 </>
               )}
@@ -62,6 +61,11 @@ export default function Contact() {
               ></img>
             )}
           </div>
+        </div>
+        <div className="contact-button-container">
+          <button className="contact-button">
+            Contact Me
+          </button>
         </div>
       </div>
     </Fade>
