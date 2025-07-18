@@ -18,7 +18,9 @@ const illustration = {
 const greeting = {
   username: "Mithushan",
   title: "Hi all, I'm Mithu",
-  subTitle: emoji( "A passionate Full Stack Software Developer 🚀 with experience in building dynamic Web and Mobile applications using JavaScript, React.js, Node.js, and React Native, along with other modern libraries and frameworks. Also enthusiastic about exploring the power of Artificial Intelligence and Machine Learning, with hands-on experience integrating AI/ML features into real-world applications."
+  subTitle: emoji( "A passionate Full Stack Software Developer 🚀 with experience in building dynamic Web and Mobile applications using JavaScript, React.js, Node.js, and React Native, along with other modern libraries and frameworks. Also enthusiastic about exploring the power of Artificial Intelligence and Machine Learning, with hands-on experience integrating AI/ML features into real-world applications.",
+    "Phone Number : +94 775742738\n" +
+    "Email : smithushan03@gmail.com"
     ),
   resumeLink:
     "https://drive.google.com/file/d/1SDSN5QPirIokz1yXYzJGfA1_MPR6ZSbq/view?usp=drive_link", // Set to empty to hide the button
